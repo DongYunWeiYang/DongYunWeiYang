@@ -27,7 +27,7 @@ I'm a Robotics Student diving deep into Embodied AI Research. My current focus i
 | Check out my [GitHub Repositories](https://github.com/Tensor-0?tab=repositories) for full source code and documentation.
 
 * **[RM-Infantry_BiasedParallel](https://github.com/Tensor-0/RM-Infantry_BiasedParallel)** - C++ based motion control framework for RoboMaster biased parallel infantry robot. 聚焦偏置并联机构的正逆运动学解算与 LQR/VMC 底盘平衡控制。 `C++` `RoboMaster` `Kinematics`
-* **[RM-FrictionDart_Ctrl](https://github.com/Tensor-0/RM-FrictionDart_Ctrl)** - C++ based motion control and launch sequence framework for RoboMaster friction-wheel dart system. 聚焦机甲大师摩擦轮飞镖系统的发射控制与转速双电机同步闭环框架。 `C++` `PID/ADRC` `State-Machine`
+* **[RM-FrictionDart_Ctrl](https://github.com/Tensor-0/RM-FrictionDart_Ctrl)** - C based motion control and launch sequence framework for RoboMaster friction-wheel dart system. 聚焦机甲大师摩擦轮飞镖系统的发射控制与转速双电机同步闭环框架。 `C++` `PID/ADRC` `State-Machine`
 * **[RM-GoldMiner_2025_FullStack](https://github.com/Tensor-0/RM-GoldMiner_2025_FullStack)** - Full-stack solution for 2025 RM Intramural "Gold Miner". 涵盖基于 STM32F103 的底盘驱动、SG90 机械臂取矿控制，以及工业相机 RGB 灯板与数字视觉识别算法。 `STM32` `OpenCV` `Hardware`
 
 ---
