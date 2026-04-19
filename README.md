@@ -13,7 +13,7 @@ I'm a Robotics Engineering student and a self-driven researcher in **Embodied AI
 <details>
 <summary><b>▼ 中文版个人简介 (Click to expand)</b></summary>
 <br>
-你好！我是 <b>张量</b>。
+你好！我是 <b>张量</b>。本科机器人学大二
 
 目前专注于具身人工智能（Embodied AI）领域，尤其是**足式机器人的强化学习 Locomotion** 算法研发。我热衷于将数学理论（LQR/VMC/RL）转化为真实的机器人运动。
 
