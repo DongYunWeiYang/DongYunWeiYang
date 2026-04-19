@@ -1,8 +1,9 @@
 <h1 align="center">Robotics & Embodied AI Researcher</h1>
 
 <p align="center">
-  <a href="你的博客或主页链接"><img src="https://img.shields.io/badge/MY_HOMEPAGES-ff69b4?style=for-the-badge"></a>
-  <a href="你想强调的项目链接"><img src="https://img.shields.io/badge/EMBODIED_AI-ffd700?style=for-the-badge"></a>
+  <a href="https://github.com/Tensor-0"><img src="https://img.shields.io/badge/RoboMaster-Full_Stack-E95420?style=for-the-badge"></a>
+  <a href="https://github.com/Tensor-0"><img src="https://img.shields.io/badge/EMBODIED_AI-ffd700?style=for-the-badge"></a>
+  <a href="https://github.com/Tensor-0"><img src="https://img.shields.io/badge/REINFORCEMENT_LEARNING-ff69b4?style=for-the-badge"></a>
 </p>
 
 ### 🚀 About Me
@@ -12,21 +13,24 @@ I'm a Robotics Student diving deep into Embodied AI Research. My current focus i
 <details>
 <summary><b>▼ 中文版个人简介 (Click to expand)</b></summary>
 <br>
-你好！我是 <b>张量</b>，机器人工程本科大二在读，主要研究方向为具身人工智能 (Embodied AI)。
+你好！我是 <b>孟田 (Mengtian Zhan)</b>，一名前沿的机器人学学生，主要研究方向为具身人工智能 (Embodied AI)。
 
-我的研发方向聚焦于让机器人理解物理世界并做出智能决策，熟悉强化学习算法及其在机器人控制中的落地应用。我相信未来的机器人将拥有更强大的自主学习与适应能力。
+我的研发方向聚焦于让机器人理解物理世界并做出智能决策，熟悉底层 C++ 运控框架、强化学习算法及其在机器人控制中的落地应用。我相信未来的机器人将拥有更强大的自主学习与适应能力。
 
+*Always open to collaborations on open-source robotics projects or in-depth technical discussions!*
 </details>
 
 ---
 
 ### 🗂️ Featured Projects
 
-| Check out my [GitHub Repositories](https://github.com/DongYunWeiYang?tab=repositories) for full source code.
+| Check out my [GitHub Repositories](https://github.com/Tensor-0?tab=repositories) for full source code and documentation.
 
-* **[Your Project Name 1](项目链接)** - A reinforcement learning framework tailored for legged robots. Includes training environments and Sim-to-Real deployment scripts. `PyTorch` `ROS2` `Ubuntu 22.04`
-* **[Your Project Name 2](项目链接)** - Open-source implementation of a trajectory planning algorithm for robotic arms. `C++` `Robotics`
+* **[RM-Infantry_BiasedParallel](https://github.com/Tensor-0/RM-Infantry_BiasedParallel)** - C++ based motion control framework for RoboMaster biased parallel infantry robot. 聚焦偏置并联机构的正逆运动学解算与 LQR/VMC 底盘平衡控制。 `C++` `RoboMaster` `Kinematics`
+* **[RM-FrictionDart_Ctrl](https://github.com/Tensor-0/RM-FrictionDart_Ctrl)** - C++ based motion control and launch sequence framework for RoboMaster friction-wheel dart system. 聚焦机甲大师摩擦轮飞镖系统的发射控制与转速双电机同步闭环框架。 `C++` `PID/ADRC` `State-Machine`
+* **[RM-GoldMiner_2025_FullStack](https://github.com/Tensor-0/RM-GoldMiner_2025_FullStack)** - Full-stack solution for 2025 RM Intramural "Gold Miner". 涵盖基于 STM32F103 的底盘驱动、SG90 机械臂取矿控制，以及工业相机 RGB 灯板与数字视觉识别算法。 `STM32` `OpenCV` `Hardware`
 
+---
 
 ### 🛠️ Technical Stack
 
@@ -57,9 +61,9 @@ I'm a Robotics Student diving deep into Embodied AI Research. My current focus i
 ### 🤝 Connect with Me
 
 <p>
-  <a href="mailto:你的邮箱"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="你的B站主页链接"><img src="https://img.shields.io/badge/Bilibili-00A1D6?style=for-the-badge&logo=bilibili&logoColor=white"></a>
-  <a href="你的知乎主页链接"><img src="https://img.shields.io/badge/Zhihu-0084FF?style=for-the-badge&logo=zhihu&logoColor=white"></a>
+  <a href="mailto:3247167757@qq.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://space.bilibili.com/171912855"><img src="https://img.shields.io/badge/Bilibili-00A1D6?style=for-the-badge&logo=bilibili&logoColor=white"></a>
+  <a href="https://www.zhihu.com/people/70-53-83-52-49"><img src="https://img.shields.io/badge/Zhihu-0084FF?style=for-the-badge&logo=zhihu&logoColor=white"></a>
 </p>
 
 ---
@@ -67,7 +71,7 @@ I'm a Robotics Student diving deep into Embodied AI Research. My current focus i
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DongYunWeiYang&theme=radical&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tensor-0&theme=radical&hide_border=true" alt="GitHub Streak" />
 </p>
 
 <p align="center">
