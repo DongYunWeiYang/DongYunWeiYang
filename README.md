@@ -1,76 +1,102 @@
 <h1 align="center">Tensor-0 | Robotics & Embodied AI Researcher</h1>
 
 <p align="center">
+  <a href="#english-version"><b>🌍 English Version</b></a> | <a href="#chinese-version"><b>🇨🇳 简体中文版本</b></a>
+</p>
+
+<p align="center">
   <a href="https://github.com/Tensor-0"><img src="https://img.shields.io/badge/Bipedal_Humanoid-RL_Locomotion-blue?style=for-the-badge&logo=ai"></a>
   <a href="https://github.com/Tensor-0"><img src="https://img.shields.io/badge/RoboMaster-Full_Stack-E95420?style=for-the-badge&logo=robot"></a>
   <a href="https://github.com/Tensor-0"><img src="https://img.shields.io/badge/Ubuntu_22.04-Developer-E95420?style=for-the-badge&logo=ubuntu"></a>
 </p>
 
+---
+
+<a name="english-version"></a>
+## 🌍 English Version
+
 ### 🚀 About Me
 
-I'm a Robotics Engineering student and a self-driven researcher in **Embodied AI**. My work spans from high-speed RoboMaster combat systems to complex bipedal locomotion. Currently, I'm focusing on **Reinforcement Learning (RL)** to bridge the sim-to-real gap for articulated robots.
+I'm a Robotics Engineering student and a highly driven researcher in **Embodied AI**. My work spans from high-speed combat robotic systems to high-DOF bipedal locomotion. Currently, I am deeply focused on **Reinforcement Learning (RL)**, aiming to bridge the sim-to-real gap for articulated robots and achieve robust, dynamic gaits in complex environments.
 
-<details>
-<summary><b>▼ 中文版个人简介 (Click to expand)</b></summary>
-<br>
-你好！我是 <b>张量</b>。本科机器人学大二
+*Always open to global collaborations on open-source robotics, RL algorithms, or in-depth technical discussions!*
 
-目前专注于具身人工智能（Embodied AI）领域，尤其是**足式机器人的强化学习 Locomotion** 算法研发。我热衷于将数学理论（LQR/VMC/RL）转化为真实的机器人运动。
-
-我目前正致力于在达妙双足平台和偏置并联底盘上实现更稳定、更智能的控制框架。
-
-</details>
-
----
-
-### 🗂️ Featured Projects
+### 🗂️ Featured Research & Projects
 
 * **[Damiao-Bipedal_RL_Locomotion](https://github.com/Tensor-0/Damiao-Bipedal_RL_Locomotion)**
-  Secondary development on the Damiao 19-DOF humanoid robot. Research focus on **RL-based gait optimization**, Sim-to-Real deployment, and high-degree-of-freedom control.
-  `Reinforcement Learning` `Damiao` `Isaac Gym` `NVIDIA Orin`
+  Secondary development framework for the Damiao 19-DOF bipedal humanoid robot. Research focus includes **RL-based gait optimization**, Sim-to-Real deployment strategies, and high-degree-of-freedom control on NVIDIA Orin platforms.
+  `Reinforcement Learning` `Isaac Gym` `Sim-to-Real`
 
 * **[RM-Infantry_BiasedParallel](https://github.com/Tensor-0/RM-Infantry_BiasedParallel)**
-  C based motion control framework for RoboMaster biased parallel infantry. Integrating **Kinematics solvers** and **LQR/VMC** balance control.
-  `C++` `RoboMaster` `Parallel Mechanism`
+  C++ based motion control framework for RoboMaster biased parallel infantry chassis. Integrating non-linear **Kinematics solvers** and **LQR/VMC** balance control for highly dynamic terrestrial locomotion.
+  `C++` `Kinematics` `LQR/VMC`
 
 * **[RM-FrictionDart_Ctrl](https://github.com/Tensor-0/RM-FrictionDart_Ctrl)**
-  High-precision control and launch sequence framework for friction-wheel dart systems. Featuring **dual-motor speed synchronization** (PID/ADRC).
-  `Control Theory` `State Machine` `Embedded`
+  High-precision launch sequence framework for friction-wheel dart systems. Featuring dual-motor speed synchronization (PID/ADRC) and rigorous state-machine implementations.
+  `Control Theory` `Embedded Systems`
 
 * **[RM-GoldMiner_2025_FullStack](https://github.com/Tensor-0/RM-GoldMiner_2025_FullStack)**
-  A comprehensive solution for the 2025 Intramural "Gold Miner" competition. Includes **OpenCV-based RGB detection** and STM32 chassis drive.
-  `STM32` `OpenCV` `Hardware Integration`
+  A comprehensive full-stack solution for autonomous retrieval robots. Integrates **OpenCV-based RGB/Digit detection** pipelines with real-time STM32 chassis drive algorithms.
+  `STM32` `Computer Vision` `Full-Stack`
+
+<br>
 
 ---
 
-### 🛠️ Technical Stack
+<a name="chinese-version"></a>
+## 🇨🇳 简体中文版本
 
-**🤖 Robotics & AI**
+### 🚀 个人简介
+
+你好！我是 **孟田 (Tensor-0)**。
+
+目前专注于**具身人工智能（Embodied AI）**领域，特别是**足式机器人的强化学习 (RL) Locomotion** 算法研发与物理实体落地。作为一名全栈机器人开发者，我习惯于在 Ubuntu 22.04 下构建从顶层视觉/AI 到底层 C++ 运控的完整链路。
+
+我的开发哲学是将严谨的数学理论（如运动学闭链解算、LQR/VMC）与前沿的 AI 算法结合，赋能双足平台和高机动底盘，让机器人真正理解物理世界并做出智能决策。
+
+*期待与国内科研团队、开源极客以及机甲大师 (RoboMaster) 同行进行深度技术交流与合作！*
+
+### 🗂️ 核心项目精选
+
+* **[达妙双足机器人：强化学习步态与二开框架](https://github.com/Tensor-0/Damiao-Bipedal_RL_Locomotion)**
+  基于达妙 19 自由度双足机器人的二次开发项目。核心聚焦于 Isaac Gym 仿真环境搭建、强化学习步态寻优，以及将 ONNX 策略模型成功部署至真实硬件 (Sim-to-Real)。
+  `强化学习 (RL)` `双足机器人` `具身智能`
+
+* **[RM 偏置并联步兵：底盘运控系统](https://github.com/Tensor-0/RM-Infantry_BiasedParallel)**
+  针对 RoboMaster 偏置并联机构开发的高频底层 C++ 框架。包含复杂的闭链运动学正逆解推导，以及基于 LQR 与 VMC (虚拟模型控制) 的倒立摆平衡控制。
+  `C++` `运动学与动力学` `平衡控制`
+
+* **[RM 摩擦轮飞镖系统：发射与同步框架](https://github.com/Tensor-0/RM-FrictionDart_Ctrl)**
+  聚焦极高精度的发弹时序与转速控制。应用 PID/ADRC 算法实现双电机高速同步闭环，构建了严谨的有限状态机 (FSM) 保障飞镖出膛稳定性。
+  `STM32` `控制算法` `状态机`
+
+* **[2025 校内赛“黄金矿工”：全栈机器人方案](https://github.com/Tensor-0/RM-GoldMiner_2025_FullStack)**
+  独立完成的综合型机器人开发项目。涵盖基于 OpenCV 的工业相机 RGB 灯板及数字识别视觉算法，机械臂精准抓取控制，以及底盘驱动融合。
+  `全栈开发` `机器视觉` `RoboMaster`
+
+---
+
+### 🛠️ 全栈技术储备 (Technical Stack)
+
+**🤖 算法与仿真 (AI & Simulation)**
 <p>
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
   <img src="https://img.shields.io/badge/Isaac_Gym-76B900?style=for-the-badge&logo=nvidia&logoColor=white">
-  <img src="https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=white">
   <img src="https://img.shields.io/badge/MuJoCo-000000?style=for-the-badge&logo=openai&logoColor=white">
+  <img src="https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=white">
 </p>
 
-**💻 Computing & Tools**
+**💻 软件与硬件 (Software & Hardware)**
 <p>
-  <img src="https://img.shields.io/badge/Ubuntu_22.04-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/NVIDIA_Jetson-76B900?style=for-the-badge&logo=nvidia&logoColor=white">
-</p>
-
-**📚 Workflow**
-<p>
-  <img src="https://img.shields.io/badge/Zotero-CC2936?style=for-the-badge&logo=zotero&logoColor=white">
-  <img src="https://img.shields.io/badge/Lark/Feishu-00D26A?style=for-the-badge&logo=lark&logoColor=white">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
+  <img src="https://img.shields.io/badge/Linux_Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
+  <img src="https://img.shields.io/badge/STM32_/_Orin-76B900?style=for-the-badge&logo=nvidia&logoColor=white">
 </p>
 
 ---
 
-### 🤝 Connect with Me
+### 🤝 联系方式 (Connect with Me)
 
 <p>
   <a href="mailto:3247167757@qq.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
@@ -80,12 +106,10 @@ I'm a Robotics Engineering student and a self-driven researcher in **Embodied AI
 
 ---
 
-### 📊 GitHub Stats
-
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tensor-0&theme=radical&hide_border=true" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <i>"Iterating on the future of locomotion, one tensor at a time." 🤖</i>
+  <i>"Iterating on the future of embodied locomotion, one tensor at a time." 🤖</i>
 </p>
