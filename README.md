@@ -48,9 +48,9 @@ I'm a Robotics Engineering student and a highly driven researcher in **Embodied 
 
 ### 🚀 个人简介
 
-你好！我是 **孟田 (Tensor-0)**。
+你好！我是 **张量 (Tensor-0)**。本科机器人学大二在读生。
 
-目前专注于**具身人工智能（Embodied AI）**领域，特别是**足式机器人的强化学习 (RL) Locomotion** 算法研发与物理实体落地。作为一名全栈机器人开发者，我习惯于在 Ubuntu 22.04 下构建从顶层视觉/AI 到底层 C++ 运控的完整链路。
+目前专注于**具身人工智能（Embodied AI）**领域，特别是**足式机器人的强化学习 (RL) Locomotion** 算法研发与物理实体落地。作为一名全栈机器人开发者，我习惯于在 Ubuntu 22.04 下构建从顶层视觉/AI 到底层 C/C++ 运控的完整链路。
 
 我的开发哲学是将严谨的数学理论（如运动学闭链解算、LQR/VMC）与前沿的 AI 算法结合，赋能双足平台和高机动底盘，让机器人真正理解物理世界并做出智能决策。
 
@@ -63,7 +63,7 @@ I'm a Robotics Engineering student and a highly driven researcher in **Embodied 
   `强化学习 (RL)` `双足机器人` `具身智能`
 
 * **[RM 偏置并联步兵：底盘运控系统](https://github.com/Tensor-0/RM-Infantry_BiasedParallel)**
-  针对 RoboMaster 偏置并联机构开发的高频底层 C++ 框架。包含复杂的闭链运动学正逆解推导，以及基于 LQR 与 VMC (虚拟模型控制) 的倒立摆平衡控制。
+  针对 RoboMaster 偏置并联机构开发的高频底层 C 框架。包含复杂的闭链运动学正逆解推导，以及基于 LQR 与 VMC (虚拟模型控制) 的倒立摆平衡控制。
   `C++` `运动学与动力学` `平衡控制`
 
 * **[RM 摩擦轮飞镖系统：发射与同步框架](https://github.com/Tensor-0/RM-FrictionDart_Ctrl)**
