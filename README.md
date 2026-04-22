@@ -48,13 +48,13 @@ I'm a Robotics Engineering student and a highly driven researcher in **Embodied 
 
 ### 🚀 个人简介
 
-你好！我是 **孟田 (Tensor-0)**。
+你好！我是 **张量(Tensor-0)**。
 
-目前专注于**具身人工智能（Embodied AI）**领域，特别是**足式机器人的强化学习 (RL) Locomotion** 算法研发与物理实体落地。作为一名全栈机器人开发者，我习惯于在 Ubuntu 22.04 下构建从顶层视觉/AI 到底层 C++ 运控的完整链路。
+目前专注于**具身人工智能（Embodied AI）**领域，特别是**足式机器人的强化学习 (RL) Locomotion** 算法研发与物理实体落地。
 
 我的开发哲学是将严谨的数学理论（如运动学闭链解算、LQR/VMC）与前沿的 AI 算法结合，赋能双足平台和高机动底盘，让机器人真正理解物理世界并做出智能决策。
 
-*期待与国内科研团队、开源极客以及机甲大师 (RoboMaster) 同行进行深度技术交流与合作！*
+*期待与国内科研团队、开源极客以及 RMer 同行进行深度技术交流与合作！*
 
 ### 🗂️ 核心项目精选
 
@@ -64,7 +64,7 @@ I'm a Robotics Engineering student and a highly driven researcher in **Embodied 
 
 * **[BPIC: 偏置并联步兵底盘控制器](https://github.com/Tensor-0/BPIC)**
   针对 RoboMaster 偏置并联机构开发的高频底层 C++ 框架。包含复杂的闭链运动学正逆解推导，以及基于 LQR 与 VMC (虚拟模型控制) 的倒立摆平衡控制。
-  `C++` `运动学与动力学` `平衡控制`
+  `C/C++` `运动学与动力学` `平衡控制`
 
 * **[FDC: 摩擦轮飞镖发射控制系统](https://github.com/Tensor-0/FDC)**
   聚焦极高精度的发弹时序与转速控制。应用 PID/ADRC 算法实现双电机高速同步闭环，构建了严谨的有限状态机 (FSM) 保障飞镖出膛稳定性。
@@ -72,7 +72,7 @@ I'm a Robotics Engineering student and a highly driven researcher in **Embodied 
 
 * **[GMFS: 黄金矿工全栈机器人方案](https://github.com/Tensor-0/GMFS)**
   独立完成的综合型机器人开发项目。涵盖基于 OpenCV 的工业相机 RGB 灯板及数字识别视觉算法，机械臂精准抓取控制，以及底盘驱动融合。
-  `全栈开发` `机器视觉` `RoboMaster`
+  `全栈开发` `机器视觉` 
 
 ---
 
